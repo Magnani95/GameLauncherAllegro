@@ -1,0 +1,8 @@
+gestione_gioco.o: gestione_gioco.cc ../strutt_dati.h ../debug.h \
+ struttura_dati.h inizializzazione.h gestione_gioco.h
+grafica.o: grafica.cc ../allegro_header.h ../strutt_dati.h ../debug.h \
+ struttura_dati.h grafica.h
+inizializzazione.o: inizializzazione.cc ../strutt_dati.h ../debug.h \
+ struttura_dati.h gestione_gioco.h
+solitario.o: solitario.cc ../allegro_header.h ../strutt_dati.h ../debug.h \
+ struttura_dati.h inizializzazione.h grafica.h gestione_gioco.h

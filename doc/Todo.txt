@@ -1,0 +1,4 @@
+-solitario
+	-introdurre la chiusura premendo la X della finestra
+	-introdurre evento a completamento partita
+	-introdurre funzione di salva/carica

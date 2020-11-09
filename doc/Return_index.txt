@@ -1,0 +1,5 @@
+return	file			funzione	note
+---------------------------------------------------
+0		main.cc		main()	Funziona tutto
+-1		main.cc		main()	Impossibile inizializzare allegro. Stampa a schermo dell'errore
+-2		main.cc		main()	Impossibile installare il mouse.

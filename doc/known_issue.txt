@@ -1,0 +1,7 @@
+Makefile->
+	lanciare "make deb" e successivamente "make" non causa una ricompilazione dell'eseguibile.
+
+000- Una azione non identificata causa un ciclo infinito di stampa del valore di una carta sul terminale
+ 	Potrebbe essere causato dal debug OR da coda di input satura di Allegro. Bug molto raro.
+001- Una azione non identificata (solitamente spostamento fila_to_fila) causa uno stallo visibile da terminale e ogni input mouse è rifiutato.
+	Probabilmente è un ciclo infinito, ma non è stato riconosciuto. Bug molto raro.

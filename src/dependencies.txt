@@ -1,0 +1,3 @@
+main.o: main.cc allegro_header.h strutt_dati.h debug.h main_grafica.h
+main_grafica.o: main_grafica.cc allegro_header.h giochi.h strutt_dati.h \
+ debug.h
